@@ -19,5 +19,6 @@ export = {
 	"WaitForActiveTimeout": makeError("Waiting for table to be active has timed out", "WaitForActiveTimeout"),
 	"TypeMismatch": makeError("There was a type mismatch between the schema and document", "TypeMismatch"),
 	"InvalidFilterComparison": makeError("That filter comparison is invalid", "InvalidFilterComparison"),
-	"ValidationError": makeError("There was an validation error with the document", "ValidationError")
+	"ValidationError": makeError("There was an validation error with the document", "ValidationError"),
+	"OtherError": makeError("There was an error", "OtherError")
 };
